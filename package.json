@@ -1,0 +1,19 @@
+{
+  "name": "ftp-server",
+  "version": "1.0.0",
+  "description": "A ftp server ui ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "AnAnnoyinGoose",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20",
+    "ssh2-sftp-client": "^9.0.4"
+  }
+}

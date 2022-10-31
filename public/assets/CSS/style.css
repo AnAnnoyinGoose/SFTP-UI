@@ -1,0 +1,100 @@
+body {
+    background: teal;
+    padding: 0 ;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#forum {
+    position: absolute;
+    top: 10rem;
+    background: #1b1b1b;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: white;
+
+}
+
+
+
+input {
+    margin: 10px;
+    width: 500px;
+    height: 50px;
+    background: #000;
+    border: none;
+    border-bottom: 1px solid #f00;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    transition: border-bottom 0.5s;
+
+}
+input:focus {
+    outline: none;
+    border-bottom:none;
+    transition: border-bottom 0.5s;
+    /*background: linear-gradient(red 0 0), linear-gradient(red 0 0) no-repeat 50% calc(100% - 2px) 50% 100%;*/
+
+}
+input:focus::placeholder {
+  color: transparent;
+}
+button {
+    margin: 10px;
+    width: 400px;
+    height: 50px;
+    background: #000;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    transition: background 0.5s;
+}
+button:hover {
+    background: #f00;
+    cursor: pointer;
+}
+p{
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    transition: background 0.5s;
+    bottom: 0;
+    padding-bottom: 10px;
+
+
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    text-align: center;
+
+
+}
+a:hover{
+    color: #f00;
+}
+img{
+    width: 15px;
+    height: 15px;
+
+
+
+}
