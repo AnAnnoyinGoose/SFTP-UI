@@ -10,7 +10,7 @@ const connectSFTP = async ( username, password) => {
     try {
         await sftp.connect({
         host: process.env.HOSTFTP,
-        port: process.env.PORTFTP,
+        port: process.env.PORTFTP || 22,
         username: username,
         password: password,
         });
